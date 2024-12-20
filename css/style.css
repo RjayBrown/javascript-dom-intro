@@ -1,0 +1,184 @@
+/*******************************************/
+/*              BASE STYLES                */
+/*******************************************/
+
+* {
+	font-family: "Montserrat Alternates";
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.dark {
+	background-color: #0e2140;
+	color: white;
+}
+
+.light {
+	background-color: white;
+	color: #0b1a33;
+}
+
+/*******************************************/
+/*                TEXT STYLES              */
+/*******************************************/
+
+a {
+	list-style: none;
+	text-decoration: none;
+
+	margin: 0 10px;
+
+	color: inherit;
+}
+
+.logo {
+	font-family: "Shizuru";
+	color: salmon;
+}
+
+.big-text {
+	text-align: center;
+	font-size: 4rem;
+}
+
+span {
+	text-decoration: underline;
+	text-underline-offset: 7px;
+	text-decoration-thickness: 10px;
+	text-decoration-color: #3f67ad;
+
+	color: tomato;
+}
+
+.list-title {
+	text-align: center;
+
+	text-decoration: underline;
+	text-underline-offset: 10px;
+	text-decoration-thickness: 3px;
+	text-decoration-color: tomato;
+
+	margin: 10px auto;
+
+	color: inherit;
+}
+
+/*******************************************/
+/*               NAVIGATION                */
+/*******************************************/
+
+.nav-menu {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+	align-items: center;
+
+	list-style: none;
+}
+
+.nav-dropdown {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+/*******************************************/
+/*         BUTTON STYLES GO HERE           */
+/*******************************************/
+
+
+
+/*******************************************/
+/*               PAGE CONTENT              */
+/*******************************************/
+
+header,
+footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	padding: 0 10px;
+
+	background-color: black;
+	color: white;
+}
+
+header {
+	justify-content: space-between;
+	height: 75px;
+}
+
+.main-container {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+.content-container {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+
+	width: 100%;
+}
+
+.content-container * {
+	margin: 0 auto;
+}
+
+.content-container img {
+	width: 100%
+}
+
+.list-container,
+.travel-list,
+.shopping-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: space-between;
+
+	width: 100%;
+}
+
+.travel-list,
+.shopping-list {
+	flex-wrap: wrap;
+	align-items: start;
+
+	height: 30vh;
+}
+
+.shopping-list {
+	list-style-type: square;
+}
+
+.travel-list li,
+.shopping-list li {
+	text-align: left;
+
+	margin: 5px 25px 5px -15px;
+}
+
+footer {
+	justify-content: center;
+
+	height: 175px;
+}
