@@ -6,7 +6,7 @@
     <img src="screenshots/project-logo.png" alt="project-name" height="64">
   </a>
 <h1 align="center">HTML, CSS, & Client-Side JavaScript: Introduction to the DOM </h1>
-<h4>Learn how to add more interactivity to websites with navigation, form validation, and multiple themes</h4>
+<h4>Learn how to add more interactivity to websites with page themes, navigation, and form validation</h4>
 </div>
 <div align="center">
   <h3>
@@ -18,20 +18,20 @@
 <h2 align="center">Screenshots</h2>
 
 <div align="center">
-  <img width="350" height="400" alt="project-screenshot" src="screenshots/project-screenshot.png">
-  <img width="350" height="400" alt="project-screenshot" src="screenshots/project-screenshot-2.png">
+  <img width="375" height="250" alt="project-screenshot" src="screenshots/project-screenshot.png">
+  <img width="375" height="250" alt="project-screenshot" src="screenshots/project-screenshot-2.png">
   <h2 align="center"></h2>
 </div>
 
 <div align="center">
-  <img width="350" height="400" alt="project-screenshot" src="screenshots/project-screenshot-3.png">
-  <img width="350" height="400" alt="project-screenshot" src="screenshots/project-screenshot-4.png">
+  <img width="375" height="250" alt="project-screenshot" src="screenshots/project-screenshot-3.png">
+  <img width="375" height="250" alt="project-screenshot" src="screenshots/project-screenshot-4.png">
   <h2 align="center"></h2>
 </div>
 
 <div align="center">
-  <img width="350" height="400" alt="project-screenshot" src="screenshots/project-screenshot-5.png">
-  <img width="350" height="400" alt="project-screenshot" src="screenshots/project-screenshot-6.png">
+  <img width="375" height="250" alt="project-screenshot" src="screenshots/project-screenshot-5.png">
+  <img width="375" height="250" alt="project-screenshot" src="screenshots/project-screenshot-6.png">
   <h2 align="center"></h2>
 </div>
 
