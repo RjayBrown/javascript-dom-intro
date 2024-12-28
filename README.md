@@ -45,7 +45,8 @@
 
 To complete the challenges and build this project you'll need a basic understanding of JavaScript. You can start by completing the #100Devs [JavaScript Basics: Classes 12-14](https://communitytaught.org/class/learn-javascript) courses.
 
-You can [download the project](https://github.com/RjayBrown/javascript-dom-intro/archive/refs/heads/main.zip) or clone and [run the project locally](https://github.com/RjayBrown/javascript-dom-intro#clone--run-locally) to get hands-on practice with the core concepts below.
+You can [download the project](https://github.com/RjayBrown/javascript-dom-intro/archive/refs/heads/main.zip) or fork and [run the project locally](https://github.com/RjayBrown/javascript-dom-intro#fork--run-locally) to get hands-on practice with the core concepts below. Start with reviewing the code and comments for each file in the practice folder.
+
 
 ### Core Concepts
 
@@ -54,53 +55,71 @@ You can [download the project](https://github.com/RjayBrown/javascript-dom-intro
 - JavaScript: DOM Elements & Event Listeners
 - Forms: Validating User Inputs
 
-### Review & Practice
+### Hands-On Practice
 
-Start in the practice folder, and after reviewing the code and comments in each file, try adding hover styles to the navigation links. Next, since the navigation menu is too wide for mobile devices, you will need to build a working mobile menu. For an extra challenge, try adding a button that toggles the page theme from light to dark (as pictured in the screenshots) and building an input field allowing the user to add items to each list. There is a hint that points you in the right direction, you may need to use your resources and searching skills to figure it out!
+**1.** Try adding hover styles to the navigation links.
+
+**2.** Since the navigation menu is too wide for mobile devices, you will need to build a working mobile menu.
+
+**3.** Build an input field allowing the user to add items to each list. The input should only contain text. If the input is not valid, display an error message to the user.
+
+**4.** For an extra challenge, try building a button that toggles the page theme from light to dark (as pictured in the screenshots). There is a hint in the comments to point you in the right direction, you'll need to use your resources and searching skills to figure it out! 
 
 ## Build a Mini-Project
 
 Once you complete the courses and challenges you'll have the skills to build a basic landing page featuring a sign-up form offering free trials to your potential customers!!! Have fun, be creative, and think of any product or service you like! You can use any of the Canva designs [here](https://www.canva.com/website-builder/templates/landing-page/) for inspiration. Your site can be a single page or multiple pages, but it should have at least a light/dark theme and display a helpful error message if the user's input is not valid. The starter files are in the practice folder.
 
-If you run into trouble, you can reach out in the #100Devs [[❓code-help]](https://discord.com/channels/735923219315425401/735925942559440997) channel on Discord. It's an amazing community space filled with supportive developers happy to answer any questions you have!
+If you run into trouble, you can reach out in the [[🕒 catchup-crew]](https://discord.com/channels/735923219315425401/932892279637700658) or [[❓code-help]](https://discord.com/channels/735923219315425401/735925942559440997) channels in the #100Devs Discord. It's an amazing community space filled with supportive developers happy to answer any questions you may have!
 
-## Clone & Run Locally
+## Fork & Run Locally
 
-1. Open the terminal in your code editor and type (or copy/paste):
+**1.** To get started, open this [link](https://github.com/RjayBrown/javascript-dom-intro/fork) in a new tab to fork or make a personal copy of this repository
 
-   ```
-   git clone https://github.com/RjayBrown/javascript-dom-intro
-   ```
+  - _**NOTE:** You may find it easier to keep the same name, but you can change it if you like!_
 
-   - _**NOTE:** You can also click the green code button and copy the url (make sure HTTPS is selected)_
+**2.** Click the code button to open the dropdown and copy the URL **(make sure HTTPS is selected)**.
 
-2. Navigate to the project folder
+**3.** Open the terminal in your editor, type 'git clone' and paste the URL **(the command should follow one of the formats below)**.
+
+  ```
+   git clone https://github.com/YOUR-GITHUB-USERNAME/javascript-dom-intro
+  ```
+  ```
+   git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME
+  ```
+
+**4.** Run the command **(Press Enter)**
+
+**5.** Navigate to the project folder
 
    ```
    cd javascript-dom-intro
    ```
+   ```
+   cd YOUR-REPOSITORY-NAME
+   ```
 
-You are now able to access and run the project locally.
+**Done!** You are now able to run the project locally.
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## Acknowledgments
 
-A big thanks to [@100devs](https://github.com/100devs) for the continued support, and [Leon Noel](https://github.com/leonnoel) for the project inspiration.
+A big thanks to [#100Devs](https://discord.com/channels/735923219315425401/735925942559440997) for the community support, and [Leon Noel](https://github.com/leonnoel) for the project inspiration.
 
-If you found some value here or just want to support, feel free to give the project a ⭐️!
+If you found some value here and would like to support, feel free to give the project a ⭐️!
 
-### Additional Resources & Mini Projects
+### Additional Resources & Mini-Projects
 
 - [HTML/CSS - Semantic Elements & Basic CSS Styles](https://github.com/RjayBrown/html-css-introduction)
 - [HTML/CSS - Containers & Responsive Design](https://github.com/RjayBrown/html-css-responsive-design)
-- [HTML/CSS - Forms & More CSS Styles](https://github.com/RjayBrown/html-css-forms-and-styles)
+- [HTML/CSS - Forms & More CSS Styles](https://github.com/RjayBrown/html-css-forms-and-links)
 - [JavaScript (Client-side) - The DOM(Introduction): User Interaction & Changing the DOM](https://github.com/RjayBrown/javascript-dom-intro)
 - [JavaScript (Client-side) - Fetch API(Introduction): Promise Chains & Handling JSON](https://github.com/RjayBrown/javascript-fetch-json-data)
 - [JavaScript (Client-side) - Fetch API(Advanced): Async/Await & Handling JSON](https://github.com/RjayBrown/war-the-card-game)
-- [JavaScript (Server-side) - URL Endpoints with NodeJS(Introduction)](https://github.com/RjayBrown/olympics-info)
+- [JavaScript (Server-side) - URL Endpoints with NodeJS(Introduction)](https://github.com/RjayBrown/olympics-search)
 - [JavaScript (Full-Stack) - MVC Architecture(Introduction)](https://github.com/RjayBrown/hello-world)
-- [JavaScript (Full-Stack) - MVC Architecture(Advanced): Authentication](https://github.com/RjayBrown/story-book) - Coming Soon!
+- [JavaScript (Full-Stack) - MVC Architecture(Advanced): Authentication](https://github.com/RjayBrown/freelancr) - Coming Soon!
 - [JavaScript (Full-Stack) - MVC Architecture(Advanced): PostgreSQL](https://github.com/RjayBrown/b-u-b) - Coming Soon!
 - [JavaScript (Full-Stack) - MVC Architecture(Advanced): ReactJS](https://github.com/RjayBrown/) - Coming Soon!
 
