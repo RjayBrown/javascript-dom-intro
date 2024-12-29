@@ -5,7 +5,7 @@
   <a href="">
     <img src="screenshots/project-logo.png" alt="project-name" height="64">
   </a>
-<h1 align="center">HTML, CSS, & Client-Side JavaScript: Introduction to the DOM </h1>
+<h1 align="center">HTML + CSS + JavaScript <br> Introduction to the DOM </h1>
 <h4>Learn how to add more interactivity to websites with page themes, navigation, and form validation</h4>
 </div>
 <div align="center">
