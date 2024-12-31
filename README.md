@@ -6,7 +6,7 @@
     <img src="screenshots/project-logo.png" alt="project-name" height="64">
   </a>
 <h1 align="center">HTML + CSS + JavaScript <br>(Client-Side)<br> Introduction to the DOM </h1>
-<h4>Learn how to add more interactivity to websites with page themes, navigation, and form validation</h4>
+<h4>Get hands-on practice working with the DOM and event listeners to help users interact with forms, buttons, and other page elements</h4>
 </div>
 <div align="center">
   <h3>
